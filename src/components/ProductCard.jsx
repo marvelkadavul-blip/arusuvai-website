@@ -4,8 +4,11 @@ import { generateWhatsAppUrl } from '../utils/whatsapp';
 
 export default function ProductCard({ product }) {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [selectedSizeIndex, setSelectedSizeIndex] = useState(0);
+  const currentPricing = product.pricing ? product.pricing[selectedSizeIndex] : { size: '', price: '' };
+  
   // Generate WhatsApp order URL using Tamil title for authentic ordering
-  const whatsappUrl = generateWhatsAppUrl(product.nameTa);
+  const whatsappUrl = generateWhatsAppUrl(product.nameEn, currentPricing.size);
 
   return (
     <article
@@ -38,6 +41,9 @@ export default function ProductCard({ product }) {
         
         {/* Category & Non-Veg/Veg Badges */}
         <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-20">
+          <span className="bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded-full shadow-xs border border-amber-200">
+            Pre-Order
+          </span>
           <span className="bg-white/90 backdrop-blur-md text-[#8B0000] text-xs font-extrabold px-3 py-1 rounded-full shadow-xs border border-amber-900/10">
             {product.category}
           </span>
@@ -55,7 +61,7 @@ export default function ProductCard({ product }) {
         {/* Dark Gradient Overlay behind Price Text */}
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-3.5 flex justify-end items-end z-10 pointer-events-none">
           <span className="bg-amber-400/90 text-gray-950 font-black text-xs sm:text-sm px-3 py-1 rounded-lg shadow-sm border border-amber-300/40 backdrop-blur-xs">
-            {product.price}
+            {currentPricing.price ? `₹${currentPricing.price} / ${currentPricing.size}` : product.price}
           </span>
         </div>
       </div>
@@ -74,6 +80,24 @@ export default function ProductCard({ product }) {
             {product.description}
           </p>
         </div>
+
+        {/* Size Selector */}
+        {product.pricing && product.pricing.length > 0 && (
+          <div className="pt-2">
+            <select
+              value={selectedSizeIndex}
+              onChange={(e) => setSelectedSizeIndex(Number(e.target.value))}
+              className="w-full bg-stone-50 border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-[#8B0000] focus:border-[#8B0000] block p-2.5 outline-none transition-colors"
+              aria-label={`Select size for ${product.nameEn}`}
+            >
+              {product.pricing.map((p, idx) => (
+                <option key={p.size} value={idx}>
+                  {p.size} - ₹{p.price}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
 
         {/* Primary WhatsApp Order CTA */}
         <a

@@ -1,12 +1,26 @@
-import React from 'react';
-import { ShoppingBag, PhoneCall } from 'lucide-react';
+import React, { useState } from 'react';
+import { ShoppingBag, PhoneCall, X } from 'lucide-react';
 import { generateWhatsAppUrl } from '../utils/whatsapp';
 
 export default function Header() {
+  const [showNotice, setShowNotice] = useState(true);
   const directSupportUrl = generateWhatsAppUrl('General Inquiry / Support');
 
   return (
     <header className="bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-[#8B0000]/10 shadow-sm transition-all duration-300">
+      {/* Global Pre-Order Notice Banner */}
+      {showNotice && (
+        <div className="bg-[#8B0000] text-amber-50 px-4 py-2 flex items-center justify-between text-xs sm:text-sm font-medium">
+          <p className="flex-1 text-center pr-4">All items are made fresh on demand. Pre-Orders only.</p>
+          <button 
+            onClick={() => setShowNotice(false)} 
+            className="p-1 hover:bg-white/20 rounded-full transition-colors"
+            aria-label="Dismiss notice"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between min-h-[64px] py-2">
           {/* Brand Logo & Dual-Language Title */}
