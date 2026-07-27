@@ -131,8 +131,8 @@ export async function runTier2Tests() {
   EXPECTED_PRODUCTS.forEach(p => {
     const englishUrl = buildExpectedWhatsAppUrl(p.nameEn);
     const tamilUrl = buildExpectedWhatsAppUrl(p.nameTa);
-    if (!englishUrl.startsWith('https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20') ||
-        !tamilUrl.startsWith('https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20')) {
+    if (!englishUrl.startsWith('https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20') ||
+        !tamilUrl.startsWith('https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20')) {
       allUrlsValid = false;
     }
   });

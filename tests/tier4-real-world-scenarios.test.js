@@ -26,7 +26,7 @@ export async function runTier4Tests() {
   assert(
     'F-SCEN-02',
     'Scenario 2: User taps "Pickles" category chip, views Chicken Pickle card, and generates correct WhatsApp ordering link',
-    expectedChickenUrl.includes('wa.me/9003104722') && expectedChickenUrl.includes('%E0%AE%9A%E0%AE%BF'),
+    expectedChickenUrl.includes('wa.me/919003104722') && expectedChickenUrl.includes('%E0%AE%9A%E0%AE%BF'),
     'Pickles category filtering and WhatsApp CTA flow'
   );
 
@@ -36,7 +36,7 @@ export async function runTier4Tests() {
   assert(
     'F-SCEN-03',
     'Scenario 3: User switches filter to "Kulambu", inspects "Sunda Vatha kulambu", and verifies URL-encoded order link',
-    expectedKulambuUrl.includes('wa.me/9003104722') && expectedKulambuUrl.includes('%E0%AE%9A%E0%AF%81'),
+    expectedKulambuUrl.includes('wa.me/919003104722') && expectedKulambuUrl.includes('%E0%AE%9A%E0%AF%81'),
     'Kulambu filtering and order placement flow'
   );
 
@@ -44,7 +44,7 @@ export async function runTier4Tests() {
   assert(
     'F-SCEN-04',
     'Scenario 4: User scrolling product grid on a budget 320px mobile device taps bottom-right sticky FAB for support without UI collision',
-    document.body.innerHTML.includes('fixed') && document.body.innerHTML.includes('9003104722'),
+    document.body.innerHTML.includes('fixed') && document.body.innerHTML.includes('919003104722'),
     'Sticky FAB instant support interaction flow'
   );
 

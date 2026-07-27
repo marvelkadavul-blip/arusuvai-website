@@ -134,7 +134,7 @@ export const EXPECTED_CATEGORIES = ['All', 'Pickles', 'Thokku', 'Kulambu', 'Podi
  */
 export function buildExpectedWhatsAppUrl(productName) {
   const encodedName = encodeURIComponent(productName);
-  return `https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${encodedName}.`;
+  return `https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${encodedName}.`;
 }
 
 /**

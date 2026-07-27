@@ -154,8 +154,8 @@ export async function runTier1Tests() {
 
   assert(
     'F4-T1-02',
-    'WhatsApp CTA URLs point to base target https://wa.me/9003104722',
-    document.body.innerHTML.includes('wa.me/9003104722') || document.body.innerHTML.includes('9003104722'),
+    'WhatsApp CTA URLs point to base target https://wa.me/919003104722',
+    document.body.innerHTML.includes('wa.me/919003104722') || document.body.innerHTML.includes('919003104722'),
     'WhatsApp phone number & domain check'
   );
 
@@ -206,8 +206,8 @@ export async function runTier1Tests() {
 
   assert(
     'F5-T1-04',
-    'FAB links directly to WhatsApp support wa.me/9003104722',
-    document.body.innerHTML.includes('wa.me/9003104722'),
+    'FAB links directly to WhatsApp support wa.me/919003104722',
+    document.body.innerHTML.includes('wa.me/919003104722'),
     'FAB URL target check'
   );
 

@@ -18,7 +18,7 @@ export async function runTier3Tests() {
     'Category filter toggle to "Pickles" on 320px viewport updates product list and maintains valid WhatsApp URLs',
     EXPECTED_PRODUCTS.filter(p => p.category === 'Pickles').every(p => {
       const url = buildExpectedWhatsAppUrl(p.nameEn);
-      return url.includes('wa.me/9003104722') && url.includes(encodeURIComponent(p.nameEn));
+      return url.includes('wa.me/919003104722') && url.includes(encodeURIComponent(p.nameEn));
     }),
     'Category Pickles filter + WhatsApp link verification at 320px'
   );

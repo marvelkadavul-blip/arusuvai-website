@@ -47,12 +47,12 @@ PRODUCTS.forEach((product, idx) => {
   // English name encoding
   const urlEn = generateWhatsAppUrl(product.nameEn);
   const expectedEnEncoded = encodeURIComponent(product.nameEn);
-  const expectedUrlEn = `https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${expectedEnEncoded}.`;
+  const expectedUrlEn = `https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${expectedEnEncoded}.`;
   
   const enPassed = urlEn === expectedUrlEn &&
                    !urlEn.includes(' ') &&
                    urlEn.includes(expectedEnEncoded) &&
-                   urlEn.startsWith('https://wa.me/9003104722?text=');
+                   urlEn.startsWith('https://wa.me/919003104722?text=');
                    
   recordTest(
     `WA-EN-${num}`,
@@ -65,12 +65,12 @@ PRODUCTS.forEach((product, idx) => {
   // Tamil name encoding
   const urlTa = generateWhatsAppUrl(product.nameTa);
   const expectedTaEncoded = encodeURIComponent(product.nameTa);
-  const expectedUrlTa = `https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${expectedTaEncoded}.`;
+  const expectedUrlTa = `https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20${expectedTaEncoded}.`;
   
   const taPassed = urlTa === expectedUrlTa &&
                    !urlTa.includes(' ') &&
                    urlTa.includes(expectedTaEncoded) &&
-                   urlTa.startsWith('https://wa.me/9003104722?text=');
+                   urlTa.startsWith('https://wa.me/919003104722?text=');
                    
   recordTest(
     `WA-TA-${num}`,
@@ -96,7 +96,7 @@ recordTest(
   'WA-EDGE-02',
   'WhatsApp',
   'WhatsApp URL handles empty product name without throwing exception',
-  emptyStringUrl === 'https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20.',
+  emptyStringUrl === 'https://wa.me/919003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20.',
   `URL: ${emptyStringUrl}`
 );
 
