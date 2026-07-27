@@ -1,0 +1,693 @@
+{
+  "passCount": 98,
+  "failCount": 0,
+  "total": 98,
+  "testResults": [
+    {
+      "id": "WA-01",
+      "category": "WhatsApp",
+      "description": "Products dataset contains exactly 17 items",
+      "passed": true,
+      "details": "Actual length: 17"
+    },
+    {
+      "id": "WA-EN-01",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Chicken Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Chicken%20Pickle."
+    },
+    {
+      "id": "WA-TA-01",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"சிக்கன் ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%9A%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%A9%E0%AF%8D%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-02",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Mutton Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Mutton%20Pickle."
+    },
+    {
+      "id": "WA-TA-02",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"ஆட்டுக்கறி ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B1%E0%AE%BF%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-03",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Fish Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Fish%20Pickle."
+    },
+    {
+      "id": "WA-TA-03",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"மீன் ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AE%E0%AF%80%E0%AE%A9%E0%AF%8D%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-04",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Prawn Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Prawn%20Pickle."
+    },
+    {
+      "id": "WA-TA-04",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"இறால் ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%87%E0%AE%B1%E0%AE%BE%E0%AE%B2%E0%AF%8D%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-05",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Karuvadu Thokku Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Karuvadu%20Thokku%20Pickle."
+    },
+    {
+      "id": "WA-TA-05",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"கருவாட்டு தொக்கு ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%95%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-06",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Mango Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Mango%20Pickle."
+    },
+    {
+      "id": "WA-TA-06",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"மாங்காய் ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AE%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-07",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Lemon Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Lemon%20Pickle."
+    },
+    {
+      "id": "WA-TA-07",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"எலுமிச்சை ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%8E%E0%AE%B2%E0%AF%81%E0%AE%AE%E0%AE%BF%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AF%88%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-08",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Garlic Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Garlic%20Pickle."
+    },
+    {
+      "id": "WA-TA-08",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"பூண்டு ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AA%E0%AF%82%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-09",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Tomato Pickle\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Tomato%20Pickle."
+    },
+    {
+      "id": "WA-TA-09",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"தக்காளி ஊறுகாய்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%A4%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B3%E0%AE%BF%20%E0%AE%8A%E0%AE%B1%E0%AF%81%E0%AE%95%E0%AE%BE%E0%AE%AF%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-10",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Tomato Thokku\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Tomato%20Thokku."
+    },
+    {
+      "id": "WA-TA-10",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"தக்காளி தொக்கு\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%A4%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B3%E0%AE%BF%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81."
+    },
+    {
+      "id": "WA-EN-11",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Chinna Vengaya Thokku\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Chinna%20Vengaya%20Thokku."
+    },
+    {
+      "id": "WA-TA-11",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"சின்ன வெங்காய தொக்கு\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%9A%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%A9%20%E0%AE%B5%E0%AF%86%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%AF%20%E0%AE%A4%E0%AF%8A%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81."
+    },
+    {
+      "id": "WA-EN-12",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Puliyogarey Paste\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Puliyogarey%20Paste."
+    },
+    {
+      "id": "WA-TA-12",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"புளியோதரை பேஸ்ட்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AA%E0%AF%81%E0%AE%B3%E0%AE%BF%E0%AE%AF%E0%AF%8B%E0%AE%A4%E0%AE%B0%E0%AF%88%20%E0%AE%AA%E0%AF%87%E0%AE%B8%E0%AF%8D%E0%AE%9F%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-13",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Garam Masala\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Garam%20Masala."
+    },
+    {
+      "id": "WA-TA-13",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"கரம் மசாலா\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%95%E0%AE%B0%E0%AE%AE%E0%AF%8D%20%E0%AE%AE%E0%AE%9A%E0%AE%BE%E0%AE%B2%E0%AE%BE."
+    },
+    {
+      "id": "WA-EN-14",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Manjal Thool\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Manjal%20Thool."
+    },
+    {
+      "id": "WA-TA-14",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"மஞ்சள் தூள்\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AE%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%B3%E0%AF%8D%20%E0%AE%A4%E0%AF%82%E0%AE%B3%E0%AF%8D."
+    },
+    {
+      "id": "WA-EN-15",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Sunda Vatha Kulambu\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Sunda%20Vatha%20Kulambu."
+    },
+    {
+      "id": "WA-TA-15",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"சுண்ட வத்தல் குழம்பு\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%9A%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%9F%20%E0%AE%B5%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D%20%E0%AE%95%E0%AF%81%E0%AE%B4%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AF%81."
+    },
+    {
+      "id": "WA-EN-16",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Manathakalli Vatha Kuzhambu\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Manathakalli%20Vatha%20Kuzhambu."
+    },
+    {
+      "id": "WA-TA-16",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"மணத்தக்காளி வத்தல் குழம்பு\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AE%E0%AE%A3%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%B3%E0%AE%BF%20%E0%AE%B5%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AF%8D%20%E0%AE%95%E0%AF%81%E0%AE%B4%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AF%81."
+    },
+    {
+      "id": "WA-EN-17",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for English title \"Poondu Milagu Kulambu\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Poondu%20Milagu%20Kulambu."
+    },
+    {
+      "id": "WA-TA-17",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL encoding for Tamil title \"பூண்டு மிளகு குழம்பு\"",
+      "passed": true,
+      "details": "Generated: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20%E0%AE%AA%E0%AF%82%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%20%E0%AE%AE%E0%AE%BF%E0%AE%B3%E0%AE%95%E0%AF%81%20%E0%AE%95%E0%AF%81%E0%AE%B4%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AF%81."
+    },
+    {
+      "id": "WA-EDGE-01",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL handles special characters (&, #, /, %, comma)",
+      "passed": true,
+      "details": "URL: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20Special%20%26%20Product%20%231%2C%20Test%2F100%25."
+    },
+    {
+      "id": "WA-EDGE-02",
+      "category": "WhatsApp",
+      "description": "WhatsApp URL handles empty product name without throwing exception",
+      "passed": true,
+      "details": "URL: https://wa.me/9003104722?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20."
+    },
+    {
+      "id": "CAT-01",
+      "category": "CategoryFilter",
+      "description": "Categories list contains all 5 required chips",
+      "passed": true,
+      "details": "Categories: [\"All\",\"Pickles\",\"Thokku\",\"Kulambu\",\"Podi\"]"
+    },
+    {
+      "id": "CAT-02",
+      "category": "CategoryFilter",
+      "description": "Filter \"All\" returns 17 products",
+      "passed": true,
+      "details": "Count: 17"
+    },
+    {
+      "id": "CAT-03",
+      "category": "CategoryFilter",
+      "description": "Filter \"Pickles\" isolates exactly 9 items without leakage of non-pickle products",
+      "passed": true,
+      "details": "Count: 9, Items: Chicken Pickle, Mutton Pickle, Fish Pickle, Prawn Pickle, Karuvadu Thokku Pickle, Mango Pickle, Lemon Pickle, Garlic Pickle, Tomato Pickle"
+    },
+    {
+      "id": "CAT-04",
+      "category": "CategoryFilter",
+      "description": "Filter \"Thokku\" includes exact 3 products (2 category + 1 altCategory) without leakage",
+      "passed": true,
+      "details": "Count: 3, Found: Karuvadu Thokku Pickle, Tomato Thokku, Chinna Vengaya Thokku"
+    },
+    {
+      "id": "CAT-05",
+      "category": "CategoryFilter",
+      "description": "Filter \"Kulambu\" isolates exactly 3 products without leakage",
+      "passed": true,
+      "details": "Count: 3, Found: Sunda Vatha Kulambu, Manathakalli Vatha Kuzhambu, Poondu Milagu Kulambu"
+    },
+    {
+      "id": "CAT-06",
+      "category": "CategoryFilter",
+      "description": "Filter \"Podi\" includes exact 3 products (2 Podi + 1 Pastes altCategory) without leakage",
+      "passed": true,
+      "details": "Count: 3, Found: Puliyogarey Paste, Garam Masala, Manjal Thool"
+    },
+    {
+      "id": "CAT-EDGE-01",
+      "category": "CategoryFilter",
+      "description": "Filter null/undefined safely defaults to All (17 products)",
+      "passed": true,
+      "details": "Count: 17"
+    },
+    {
+      "id": "CAT-EDGE-02",
+      "category": "CategoryFilter",
+      "description": "Filter empty string safely defaults to All (17 products)",
+      "passed": true,
+      "details": "Count: 17"
+    },
+    {
+      "id": "CAT-EDGE-03",
+      "category": "CategoryFilter",
+      "description": "Filter unknown category returns empty array [] without throwing DOM exception",
+      "passed": true,
+      "details": "Result: []"
+    },
+    {
+      "id": "CAT-EDGE-04",
+      "category": "CategoryFilter",
+      "description": "Category filter execution maintains PRODUCTS array immutability",
+      "passed": true,
+      "details": "PRODUCTS mutated during filter execution!"
+    },
+    {
+      "id": "IMG-JPG-01",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Chicken Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Chicken Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-01",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Chicken Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Chicken Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-01",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Chicken Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Chicken Pickle.jpg\", Expected: \"Chicken Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-02",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Mutton Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Mutton Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-02",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Mutton Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Mutton Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-02",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Mutton Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Mutton Pickle.jpg\", Expected: \"Mutton Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-03",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Fish Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Fish Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-03",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Fish Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Fish Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-03",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Fish Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Fish Pickle.jpg\", Expected: \"Fish Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-04",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Prawn Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Prawn Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-04",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Prawn Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Prawn Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-04",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Prawn Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Prawn Pickle.jpg\", Expected: \"Prawn Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-05",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Karuvadu thokku pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Karuvadu thokku pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-05",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Karuvadu thokku pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Karuvadu thokku pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-05",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Karuvadu thokku pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Karuvadu thokku pickle.jpg\", Expected: \"Karuvadu thokku pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-06",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Mango Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Mango Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-06",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Mango Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Mango Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-06",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Mango Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Mango Pickle.jpg\", Expected: \"Mango Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-07",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Lemon pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Lemon pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-07",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Lemon pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Lemon pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-07",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Lemon pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Lemon pickle.jpg\", Expected: \"Lemon pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-08",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Garlic Pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Garlic Pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-08",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Garlic Pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Garlic Pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-08",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Garlic Pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Garlic Pickle.jpg\", Expected: \"Garlic Pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-09",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Tomato pickle.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Tomato pickle.jpg"
+    },
+    {
+      "id": "IMG-JPEG-09",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Tomato pickle.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Tomato pickle.jpeg"
+    },
+    {
+      "id": "IMG-CASE-09",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Tomato pickle.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Tomato pickle.jpg\", Expected: \"Tomato pickle.jpg\""
+    },
+    {
+      "id": "IMG-JPG-10",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Tomato thokku.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Tomato thokku.jpg"
+    },
+    {
+      "id": "IMG-JPEG-10",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Tomato thokku.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Tomato thokku.jpeg"
+    },
+    {
+      "id": "IMG-CASE-10",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Tomato thokku.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Tomato thokku.jpg\", Expected: \"Tomato thokku.jpg\""
+    },
+    {
+      "id": "IMG-JPG-11",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Chinna vengaya thokku.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Chinna vengaya thokku.jpg"
+    },
+    {
+      "id": "IMG-JPEG-11",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Chinna vengaya thokku.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Chinna vengaya thokku.jpeg"
+    },
+    {
+      "id": "IMG-CASE-11",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Chinna vengaya thokku.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Chinna vengaya thokku.jpg\", Expected: \"Chinna vengaya thokku.jpg\""
+    },
+    {
+      "id": "IMG-JPG-12",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Puliyogarey paste.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Puliyogarey paste.jpg"
+    },
+    {
+      "id": "IMG-JPEG-12",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Puliyogarey paste.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Puliyogarey paste.jpeg"
+    },
+    {
+      "id": "IMG-CASE-12",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Puliyogarey paste.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Puliyogarey paste.jpg\", Expected: \"Puliyogarey paste.jpg\""
+    },
+    {
+      "id": "IMG-JPG-13",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Garam Masala.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Garam Masala.jpg"
+    },
+    {
+      "id": "IMG-JPEG-13",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Garam Masala.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Garam Masala.jpeg"
+    },
+    {
+      "id": "IMG-CASE-13",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Garam Masala.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Garam Masala.jpg\", Expected: \"Garam Masala.jpg\""
+    },
+    {
+      "id": "IMG-JPG-14",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Manjal thul.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Manjal thul.jpg"
+    },
+    {
+      "id": "IMG-JPEG-14",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Manjal thul.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Manjal thul.jpeg"
+    },
+    {
+      "id": "IMG-CASE-14",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Manjal thul.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Manjal thul.jpg\", Expected: \"Manjal thul.jpg\""
+    },
+    {
+      "id": "IMG-JPG-15",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Sunda Vatha kulambu.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Sunda Vatha kulambu.jpg"
+    },
+    {
+      "id": "IMG-JPEG-15",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Sunda Vatha kulambu.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Sunda Vatha kulambu.jpeg"
+    },
+    {
+      "id": "IMG-CASE-15",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Sunda Vatha kulambu.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Sunda Vatha kulambu.jpg\", Expected: \"Sunda Vatha kulambu.jpg\""
+    },
+    {
+      "id": "IMG-JPG-16",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Manathakalli vatha kuzhambu.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Manathakalli vatha kuzhambu.jpg"
+    },
+    {
+      "id": "IMG-JPEG-16",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Manathakalli vatha kuzhambu.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Manathakalli vatha kuzhambu.jpeg"
+    },
+    {
+      "id": "IMG-CASE-16",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Manathakalli vatha kuzhambu.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Manathakalli vatha kuzhambu.jpg\", Expected: \"Manathakalli vatha kuzhambu.jpg\""
+    },
+    {
+      "id": "IMG-JPG-17",
+      "category": "ImageResolution",
+      "description": "Image path \"/images/Poondu milagu kulambu.jpg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Poondu milagu kulambu.jpg"
+    },
+    {
+      "id": "IMG-JPEG-17",
+      "category": "ImageResolution",
+      "description": "Fallback discImage path \"/images/Poondu milagu kulambu.jpeg\" exists in public directory",
+      "passed": true,
+      "details": "Checked file: E:\\Food Website\\public\\images\\Poondu milagu kulambu.jpeg"
+    },
+    {
+      "id": "IMG-CASE-17",
+      "category": "ImageResolution",
+      "description": "Exact case match on disk for \"Poondu milagu kulambu.jpg\"",
+      "passed": true,
+      "details": "Disk: \"Poondu milagu kulambu.jpg\", Expected: \"Poondu milagu kulambu.jpg\""
+    }
+  ]
+}

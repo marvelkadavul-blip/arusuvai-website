@@ -1,0 +1,51 @@
+# Agent Directives & Skills Requirement: Arusuvai Web Project
+
+## 1. Primary Objective & Target Audience
+- **Goal:** Build a high-performance, single-page e-commerce catalog for "Arusuvai" homemade products.
+- **Primary Target:** Mobile users (90%+ traffic). The design must follow a strict **Mobile-First** approach. Desktop views should act as an expanded, responsive extension of the mobile experience.
+- **Conversion Action:** Route all product orders seamlessly to WhatsApp (`9003104722`).
+
+## 2. Design System & Aesthetics
+- **Core Vibe:** Modern Indian heritage, premium homemade quality, appetizing, and highly tactile.
+- **Color Palette:**
+  * Background Base: `#FAF7F2` (Warm Off-White/Cream)
+  * Primary Text & Accents: `#8B0000` (Deep Spice Red)
+  * Secondary Accents: `#D4AF37` (Heritage Gold)
+  * Action Buttons (WhatsApp): `#25D366` (Vibrant Emerald Green)
+  * Glass/Blur Elements: `rgba(255, 255, 255, 0.7)` with backdrop blur.
+- **Typography:**
+  * Use a clean, modern sans-serif font (e.g., Inter, Poppins, or system UI) for English text to ensure readability on small screens.
+  * Ensure robust UTF-8 support for Tamil typography (e.g., Noto Sans Tamil).
+
+## 3. Mobile-First Layout Requirements
+- **Touch Targets:** All clickable elements (buttons, category chips, WhatsApp icons) must have a minimum height of `48px` to comply with mobile accessibility standards.
+- **Navigation:** Use a horizontal scrolling row for category filters (Pickles, Thokku, Podi) with a hidden scrollbar (`scrollbar-width: none`).
+- **Product Grid:** 
+  * Mobile: 1 or 2 columns based on screen width (`grid-cols-1` or `grid-cols-2`).
+  * Desktop: Maximum 4 columns (`md:grid-cols-3 lg:grid-cols-4`).
+- **Floating Action Button (FAB):** Implement a sticky WhatsApp contact button positioned at the bottom-right corner, always visible above the fold.
+
+## 4. Modern UI Effects (Glassmorphism & Blurs)
+- **Header/Navbar:** Use a translucent, sticky navigation bar. Apply Tailwind classes like `bg-white/70 backdrop-blur-md sticky top-0 z-50` to create a modern glass effect over scrolling content.
+- **Product Cards:** 
+  * Use soft, modern drop shadows (`shadow-lg shadow-red-900/5`).
+  * Round the corners generously (`rounded-2xl`).
+  * Apply a subtle frosted glass background for the product detail section overlaying the image base.
+- **Bottom Action Bar (Mobile):** If implementing a bottom cart/filter bar, use a high-blur background to keep the interface feeling lightweight and modern.
+
+## 5. Animations & Motion Dynamics
+- **Page Load (Hero Section):** 
+  * Use a gentle fade-in and slide-up animation for the main headline and hero image (`opacity-0 translate-y-4` to `opacity-100 translate-y-0` over 500ms).
+- **Scroll Reveals (Intersection Observer):** 
+  * Product cards should sequentially fade in and slightly scale up (`scale: 0.95` to `scale: 1`) as they enter the viewport to make scrolling feel energetic and alive.
+- **Micro-interactions (Tap/Hover states):**
+  * **Images:** Implement a slow zoom effect on the product image when hovering or tapping (`hover:scale-105 transition-transform duration-500`).
+  * **Buttons:** Use active state scaling for mobile. When a user taps the "Order on WhatsApp" button, it should physically depress (`active:scale-95 transition-transform duration-150`).
+  * **Category Chips:** Smooth background color transition when switching active categories.
+
+## 6. Functional & Integration Rules
+- **Image Handling:** Map exact filenames provided (e.g., `image_dcb239.png`, `Chicken Pickle.jpg`). Use `object-cover` and `aspect-square` classes to ensure all user-provided images are uniform without distortion. Add lazy loading (`loading="lazy"`) to all images to maintain fast mobile load times.
+- **WhatsApp String Generation:**
+  * Base URL: `https://wa.me/9003104722`
+  * Dynamic Query: `?text=Hello%20Arusuvai%2C%20I%20would%20like%20to%20order%20[URL_ENCODED_PRODUCT_NAME].`
+- **State Management:** Ensure the category filter efficiently toggles product visibility without triggering a full page reload.
