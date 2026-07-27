@@ -1,0 +1,23 @@
+# Arusuvai Food Website - Project Requirements & Dependencies
+
+# Node.js Environment Requirements
+node>=18.0.0
+npm>=9.0.0
+
+# Frontend Dependencies (Node.js / npm packages)
+react>=18.3.1
+react-dom>=18.3.1
+framer-motion>=11.18.2
+lucide-react>=0.474.0
+clsx>=2.1.1
+tailwind-merge>=2.6.0
+
+# Dev Dependencies
+vite>=6.0.11
+tailwindcss>=3.4.17
+autoprefixer>=10.4.20
+postcss>=8.5.1
+vitest>=3.0.4
+
+# Optional Tunneling / Server Tools
+localtunnel>=2.0.2
